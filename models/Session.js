@@ -7,7 +7,7 @@ const sessionSchema = new mongoose.Schema(
 
   refreshToken: { type: String, required: true },
 
-  userAgent: { type: String },,
+  userAgent: { type: String },
   
   createdAt: { type: Date, default: Date.now }
 });
